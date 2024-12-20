@@ -1,8 +1,15 @@
-h1{
-    color: #819b57;;
-    border: 5px solid peru;
+.buton{
+color: #faf4ea; 
+background-color: #547027;
+border: 2px solid #465b24;
+border-radius: 8px;
+cursor: pointer;
 }
-.button {background-color;: #819b57
-    border: 2px solid #819b57
-    border-radius: 8px
-    ;}
+.button:hover {
+    color: #465929;
+    background-color: transparent;
+}
+button:focus {
+    color: fuchsia;
+    background-color: transparent;
+}
